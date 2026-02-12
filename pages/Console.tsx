@@ -149,7 +149,7 @@ const Console: React.FC = () => {
                <div className="p-10 h-[300px] overflow-y-auto space-y-4 text-[12px] text-blue-400 scroll-smooth custom-scrollbar" ref={scrollRef}>
                   {logs.map((log, i) => (
                     <div key={i} className="flex items-start space-x-6 opacity-60 hover:opacity-100 transition-opacity group">
-                      <span className="text-slate-800 font-black shrink-0 group-hover:text-blue-600 transition-colors">>></span>
+                      <span className="text-slate-800 font-black shrink-0 group-hover:text-blue-600 transition-colors">&gt;&gt;</span>
                       <span className="italic leading-relaxed font-bold tracking-tight">{log}</span>
                     </div>
                   ))}
