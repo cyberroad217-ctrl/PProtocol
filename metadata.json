@@ -1,0 +1,8 @@
+{
+  "name": "PProtocol - The Quantum Productivity Ecosystem",
+  "description": "A high-performance productivity platform powered by quantum AI agents, featuring an expansive marketplace, deep LLM research blog, and real-time operations console.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
